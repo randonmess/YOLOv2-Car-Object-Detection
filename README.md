@@ -1,2 +1,11 @@
 # YOLOv2-Car-Object-Detection
-Implemented object detection using YOLO model for front car camera.
+Using Tensorflow and Keras, implemented object detection using YOLO v2 model architecture for front car cameras.
+
+## Objectives
+- Detect objects in a car detection dataset
+- Implement non-max suppression to increase accuracy
+- Implement intersection over union
+- Handle bounding boxes, a type of image annotation popular in deep learning
+
+### Results
+- Using a pre-trained model, it returns 80 classes of bounding boxes for objects detected from a front camera.
